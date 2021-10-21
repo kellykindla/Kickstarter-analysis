@@ -1,2 +1,13 @@
-# Kickstarter-analysis
-Module1- Performing analysis in excel on kickstarter data to see trends 
+# An Analysis of Kickstarter Campaigns- Module 1
+For this project, I performed an analysis in excel on the kickstarter data for multiple fine arts campaigns to visualize any trends. 
+
+  The Kickstarter data contains an array of productions and their success, or lack thereof, in reaching their campaign goals. From this data, we receive quantitative values regarding the productions goal and what was actually pledged which can be simplified into average donated per backer. The data has been sorted into theater categories and play subcategories for your convenience. The findings for both dissected categories/subcategories show that successful campaigns occur nearly twice as often as failed campaigns for theater and play productions. Furthermore, we found that the most successful theater productions occur in May and the least successful occur in October. Visualizations of this data are shown in the attached graphs. 
+  For the productions that occurred in Edinburgh, we found that all of them not only reached, but exceeded their associated campaign goals.
+  Regarding the success of theater/play productions in the US, we found that successful productions had an average goal of $5049 and median of $3000 and an average pledge amount of $5602 and median of $3168. Since the mean for both the goal and pledge data is much greater than the median, it indicates that the data is positively skewed. Similar trends are found with failed campaigns, with the mean being much greater than the median indicating right skewed data. The standard deviation for successful and failed productions is high for the pledged and goal amounts, meaning the data is spread out. 
+  For Great Britain plays, we found that a goal campaign of 4000 euros is far below the range of pledged amounts, indicating that a goal that high is less likely to succeed based on the data. 
+  In conclusion, a campaign that takes place in the US during May with a goal around $5000 is likely to succeed. However, a campaign of this value in Great Britain is less likely to succeed, based on the Kickstarter Data. Therefore, I would recommend campaigning for a play in May in the US with a goal of $3500 to increase the chance of reaching said goal.
+
+  
+![Module1_GB Plays](https://user-images.githubusercontent.com/92558842/138202915-4bca552f-4af2-435f-b05e-06fc995c096c.png)
+![OutcomesBasedonLaunchDateGraph](https://user-images.githubusercontent.com/92558842/138202940-8841439e-1239-49c1-8d0d-d3bc5fd7068e.png)
+![ParentCategoryOutcomesGraph](https://user-images.githubusercontent.com/92558842/138202946-52528eb9-3eb1-4208-9a71-477333fefb70.png)
