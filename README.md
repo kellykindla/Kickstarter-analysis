@@ -7,7 +7,7 @@
 
 ## Purpose
 
-### The purpose of this project was to tell a story based on data—in this case, visualize campaign outcomes based on their goals and launch date. 
+#### The purpose of this project was to tell a story based on data—in this case, visualize campaign outcomes based on their goals and launch date. 
 
 
 ## Analysis 
@@ -16,11 +16,11 @@
 
 #### From the Kickstarter Data, we were challenged to compute the theater campaign outcomes based on their launch date and visualize potential trends. In order to begin this analysis, we had to create a pivot table to summarize the data. This pivot table, shown in the image below, only shows the campaign data we are curious about—theater— and can be further broken down into the year a campaign was launched if desired. The pivot table gives us a quantitive visualization of the number of successful, failed, and canceled theater productions by the month they were launched. This data is also summarized in the line chart shown below. From this visualization, we can gather that there is a peak in successful campaigns in the month of May with 111 successes; however, this should be taken lightly as there is also a peak in failures with 52 failed campaigns in May resulting in a 67% occurrence of successful campaigns in May. We can also see a decline in successful campaigns from October to December with a peak occurrence of failures in October where only 57% of campaigns are successful. 
 
-#### ** Pivot Table: **
+#### **Pivot Table:**
 
 <img width="325" alt="LaunchDate_PivotTable" src="https://user-images.githubusercontent.com/92558842/138497040-9e92a611-3773-4a8f-a233-58dc68491867.png">
 
-#### ** Line Chart: **
+#### **Line Chart:**
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/92558842/138497115-46f96ac9-e3aa-41ff-a633-053d4af8b366.png)
 
@@ -28,11 +28,11 @@
 
 #### We aimed to discover the percentage of successful, failed, and canceled plays based on their campaign goals. In order to accomplish this, we had to filter our Kickstarter Data using the excel “CountIfs” function to quantify the number of successful, failed, and canceled play productions in relation to the associated goal ranges. This data is shown in the table below where one find that the most successful campaigns had the lowest goals of less than $1000. We also find that 100% of the campaigns with a goal between $45000 and $49999 were failures; however, there was only one campaign in this category.  This data is further visualized in the line chart below, where we can see the general trends of the percentage of successes or failures versus the campaigns goal amount. From the graph, we can see a general decrease in successes, increase in failures from goals starting at $1000 going to $29999. There does happen to be a spike in successes at 66.67% successful in campaigns whose goals range from $35000 and go to $44999. 
 
-#### ** Table: **  
+#### **Table:**  
 
 <img width="723" alt="Outcomes_Basedon_Goals" src="https://user-images.githubusercontent.com/92558842/138497179-fb22be7d-be20-49b6-a0d3-f36ee1e674dd.png">
 
-#### ** Line Chart: **
+#### **Line Chart:**
 
 ![Outcomes_vs_Goal](https://user-images.githubusercontent.com/92558842/138497209-593aa6e1-1ca1-4a14-bf50-7ae044d54453.png)
 
